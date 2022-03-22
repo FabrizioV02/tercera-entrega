@@ -1,0 +1,9 @@
+@mixin maincolors($white, $black){
+    color: $white;
+    background-color: $black;
+}
+
+@mixin secondarycolors($black, $white){
+    color: $black;
+    background-color: $white;
+}

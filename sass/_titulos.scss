@@ -1,0 +1,18 @@
+#destacados-titulo {
+  margin-top: $margintop*4;
+  margin-bottom: $marginbott+10;
+}
+
+#masVendido-titulo {
+  @extend #destacados-titulo;
+}
+
+#marcas-titulo {
+  @extend #destacados-titulo;
+}
+
+#nosotros-titulo{
+  h1{
+    margin-top: $margintop*2;
+  }
+}

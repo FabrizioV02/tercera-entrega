@@ -1,0 +1,17 @@
+.navbar-brand {
+  img {
+    width: $width*10;
+  }
+}
+
+#nav-drop {
+  li {
+    a {
+      color: $black;
+    }
+  }
+}
+
+#navbar-button-phone {
+  background-color: $lightblue;
+}

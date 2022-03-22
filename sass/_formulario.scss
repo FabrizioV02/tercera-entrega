@@ -1,0 +1,66 @@
+.form-container {
+  text-align: center;
+}
+
+.formulario {
+  width: $width*34;
+  height: $height*44;
+  @include maincolors($white, $black);
+  border-radius: 8px;
+  margin: 25vh auto;
+  padding: 20px 30px;
+  max-width: 55vh;
+  position: relative;
+  h2 {
+    margin-top: $margintop;
+    padding-bottom: 10px;
+    color: $white;
+    border-bottom: 3px solid $white;
+  }
+}
+
+.formulario {
+  input {
+    color: $white;
+    width: 100%;
+    padding: 10px;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    transition: all 0.2s;
+    border-bottom: 2px solid #8f8f8f;
+    &:focus {
+      border-bottom: 2px solid $lightblue;
+    }
+  }
+}
+
+.formulario {
+  p:before {
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: #ebe8e8;
+  }
+}
+
+.formulario {
+  button {
+    float: center;
+    margin-top: $margintop*5;
+    border: $white 2px solid;
+    background: 0;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: $width+40;
+    border-radius: 3px;
+    @include maincolors($white, $black);
+    &:hover{
+      @include secondarycolors($black, $white);
+      border-color: $black;
+    }
+  }
+}
+

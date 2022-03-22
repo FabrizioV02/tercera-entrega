@@ -1,0 +1,43 @@
+#marca1 {
+  a {
+    img {
+      object-fit: cover;
+      margin-top: 35%;
+      max-width: $width*50;
+    }
+  }
+}
+
+#marca2 {
+  a {
+    img {
+      @extend #marca1;
+      margin-top: 25%;
+    }
+  }
+}
+
+#marca4 {
+  a {
+    img {
+      @extend #marca2;
+    }
+  }
+}
+
+#marca5 {
+  a {
+    img {
+      @extend #marca1;
+      margin-top: 10%;
+    }
+  }
+}
+
+#marca6 {
+  a {
+    img {
+      @extend #marca2;
+    }
+  }
+}

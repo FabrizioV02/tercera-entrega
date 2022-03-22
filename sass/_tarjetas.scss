@@ -1,0 +1,36 @@
+#card-bateria2 {
+  height: 100%;
+  img {
+    width: 100%;
+    height: $height+275;
+  }
+}
+
+#tarjeta1 {
+  background-color: $black;
+  h5 {
+    color: $lightblue;
+    font-size: 30px;
+  }
+  ul {
+    li {
+      list-style: none;
+      padding-left: 40px;
+      a {
+        color: $white;
+      }
+    }
+  }
+}
+
+#tarjeta2 {
+  @extend #tarjeta1;
+}
+
+#tarjeta3 {
+  @extend #tarjeta1;
+}
+
+.tarjeta-ubicacion {
+  margin-left: 35%;
+}
