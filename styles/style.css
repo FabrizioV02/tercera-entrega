@@ -100,6 +100,18 @@ body a {
     margin-top: 60px;
     max-height: 500px; } }
 
+@media (min-width: 768px) {
+  #masvendidos-img2 {
+    max-height: 183px; } }
+
+@media (min-width: 992px) {
+  #masvendidos-img2 {
+    max-height: 400px; } }
+
+@media (min-width: 1200px) {
+  #masvendidos-img2 {
+    max-height: 400px; } }
+
 #marca1 a img, #marca2 a img a img, #marca4 a img a img a img, #marca6 a img a img a img, #marca5 a img a img {
   object-fit: cover;
   margin-top: 35%;
