@@ -141,10 +141,8 @@ body a {
   #marca6 a img {
     margin-top: 60px; } }
 
-#nosotros-contenido {
-  justify-content: center;
-  margin-left: 50px;
-  font-size: 150fr; }
+#nosotros-h1 {
+  margin-top: 50px; }
 
 .form-container {
   text-align: center; }
