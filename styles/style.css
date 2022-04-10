@@ -21,6 +21,22 @@ body a {
 #navbar-button-phone {
   background-color: #0d63fd; }
 
+@media (min-width: 768px) {
+  #carousel-img1 {
+    max-height: 280px; }
+  #carousel-img2 {
+    max-height: 280px; }
+  #carousel-img3 {
+    max-height: 280px; } }
+
+@media (min-width: 992px) {
+  #carousel-img1 {
+    max-height: 500px; }
+  #carousel-img2 {
+    max-height: 500px; }
+  #carousel-img3 {
+    max-height: 500px; } }
+
 #destacados-titulo, #masVendido-titulo, #marcas-titulo {
   margin-top: 40px;
   margin-bottom: 30px; }
