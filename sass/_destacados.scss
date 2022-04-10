@@ -1,0 +1,42 @@
+@media(min-width:768px){
+    #destacados-img1{
+        max-height: 280px;
+    }
+
+    #destacados-img2{
+        max-height: 280px;
+    }
+
+    #destacados-img3{
+        max-height: 205px;
+    }
+}
+
+@media(min-width:992px){
+    #destacados-img1{
+        max-height: 200px;
+    }
+
+    #destacados-img2{
+        max-height: 200px;
+    }
+
+    #destacados-img3{
+        max-height: 200px;
+    }
+}
+
+@media(min-width:1200px){
+    #destacados-img1{
+        max-height: 500px;
+    }
+
+    #destacados-img2{
+        max-height: 500px;
+    }
+
+    #destacados-img3{
+        margin-top: 60px;
+        max-height: 500px;
+    }
+}

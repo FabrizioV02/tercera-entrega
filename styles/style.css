@@ -31,11 +31,11 @@ body a {
 
 @media (min-width: 992px) {
   #carousel-img1 {
-    max-height: 500px; }
+    max-height: 350px; }
   #carousel-img2 {
-    max-height: 500px; }
+    max-height: 350px; }
   #carousel-img3 {
-    max-height: 500px; } }
+    max-height: 350px; } }
 
 #destacados-titulo, #masVendido-titulo, #marcas-titulo {
   margin-top: 40px;
@@ -74,6 +74,31 @@ body a {
 
 .tarjeta-ubicacion {
   margin-left: 35%; }
+
+@media (min-width: 768px) {
+  #destacados-img1 {
+    max-height: 280px; }
+  #destacados-img2 {
+    max-height: 280px; }
+  #destacados-img3 {
+    max-height: 205px; } }
+
+@media (min-width: 992px) {
+  #destacados-img1 {
+    max-height: 200px; }
+  #destacados-img2 {
+    max-height: 200px; }
+  #destacados-img3 {
+    max-height: 200px; } }
+
+@media (min-width: 1200px) {
+  #destacados-img1 {
+    max-height: 500px; }
+  #destacados-img2 {
+    max-height: 500px; }
+  #destacados-img3 {
+    margin-top: 60px;
+    max-height: 500px; } }
 
 #marca1 a img, #marca2 a img a img, #marca4 a img a img a img, #marca6 a img a img a img, #marca5 a img a img {
   object-fit: cover;
