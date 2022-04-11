@@ -5,6 +5,26 @@
     }
 }
 
+@media(min-width:768px){
+    #container-productos{
+        margin-left: 80px
+    }
+}
+
+
+@media(min-width:992px){
+    #container-productos{
+        margin-left: 200px
+    }
+}
+
+
+@media(min-width:1200px){
+    #container-productos{
+        margin-left: 350px
+    }
+}
+
 #pagination{
     margin-top: 40px;
 }
