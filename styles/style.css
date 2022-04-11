@@ -199,11 +199,23 @@ body a {
     background-color: #fff;
     border-color: #000; }
 
-@media (max-width: 576px) {
+@media (min-width: 540px) {
+  #productos-img1 {
+    margin-left: 8em; } }
+
+@media (min-width: 576px) {
   #productos-img1 {
     margin-left: 10em; } }
 
 @media (min-width: 768px) {
+  #productos-img1 {
+    margin-left: 2em; } }
+
+@media (min-width: 992px) {
+  #productos-img1 {
+    margin-left: 2em; } }
+
+@media (min-width: 1200px) {
   #container-productos {
     margin-left: 80px; } }
 
@@ -213,6 +225,37 @@ body a {
 
 @media (min-width: 1200px) {
   #container-productos {
+    margin-left: 350px; } }
+
+#pagination {
+  margin-top: 40px; }
+
+@media (min-width: 540px) {
+  #ofertas-img {
+    margin-left: 8em; } }
+
+@media (min-width: 576px) {
+  #ofertas-img {
+    margin-left: 10em; } }
+
+@media (min-width: 768px) {
+  #ofertas-img {
+    margin-left: 2em; } }
+
+@media (min-width: 992px) {
+  #ofertas-img {
+    margin-left: 2em; } }
+
+@media (min-width: 1200px) {
+  #container-ofertas {
+    margin-left: 80px; } }
+
+@media (min-width: 992px) {
+  #container-ofertas {
+    margin-left: 200px; } }
+
+@media (min-width: 1200px) {
+  #container-ofertas {
     margin-left: 350px; } }
 
 #pagination {
