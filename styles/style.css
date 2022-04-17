@@ -12,6 +12,9 @@ body a {
   #header li a {
     color: #fff; }
 
+#navbarSupportedContent :hover {
+  color: #0d63fd; }
+
 .navbar-brand img {
   width: 100px; }
 
@@ -74,6 +77,9 @@ body a {
 
 .tarjeta-ubicacion {
   margin-left: 35%; }
+
+.card a img:hover {
+  transform: scale(0.9); }
 
 @media (max-width: 768px) {
   #destacados-img1 {
