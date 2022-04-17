@@ -224,21 +224,25 @@ body a {
 #pagination {
   margin-top: 40px; }
 
+@media (max-width: 540px) {
+  #ofertas-img {
+    margin-left: 4rem; } }
+
 @media (min-width: 540px) {
   #ofertas-img {
-    margin-left: 8em; } }
+    margin-left: 9rem; } }
 
 @media (min-width: 576px) {
   #ofertas-img {
-    margin-left: 10em; } }
+    margin-left: 10rem; } }
 
 @media (min-width: 768px) {
   #ofertas-img {
-    margin-left: 2em; } }
+    margin-left: 2rem; } }
 
 @media (min-width: 992px) {
   #ofertas-img {
-    margin-left: 2em; } }
+    margin-left: 2rem; } }
 
 @media (min-width: 1200px) {
   #container-ofertas {
