@@ -193,9 +193,9 @@ body a {
     background-color: #fff;
     border-color: #000; }
 
-@media (min-width: 430px) {
+@media (max-width: 540px) {
   #productos-img1 {
-    margin-left: 5rem; } }
+    margin-left: 3rem; } }
 
 @media (min-width: 540px) {
   #productos-img1 {
